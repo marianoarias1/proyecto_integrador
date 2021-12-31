@@ -440,7 +440,6 @@ p{
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 1.25rem;
 }
 
 .contenedor_h4{
@@ -470,4 +469,287 @@ p{
 
 .contacto img:hover{
     width: 3rem;
+}
+
+/* CSS LOGIN */
+
+.contenedor_login{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 0.6rem;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 16px 4px rgba(69,64,64,0.75) inset;
+    -webkit-box-shadow: 0px 0px 16px 4px rgba(69,64,64,0.75) inset;
+    -moz-box-shadow: 0px 0px 16px 4px rgba(69,64,64,0.75) inset;
+}
+
+.contenedor_h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contenedor_h2 h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #1E1D1D;
+}
+
+.contenedor_usuario_pass{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.usuario{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.usuario label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #1E1D1D;
+    margin-right: 1rem;
+}
+
+.contraseña{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.1rem;
+}
+
+.contraseña label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #1E1D1D;
+    margin-right: 0.2rem;
+}
+
+#usuario{
+    height: 2rem;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+#contraseña{
+    height: 2rem;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+.contenedor_boton_submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton_entrar{
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #DFD128;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+    font-weight: 200;
+    transition: all 0.6s;
+}
+
+.contenedor_boton_submit button:hover{
+    background-color: #1E1D1D;
+    cursor: pointer;
+    color: #DFD128;
+}
+
+
+.contenedor_crear{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.olvidaste{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.crear{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* CSS CREAR USUARIO */
+
+.contenedor_register{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 0.6rem;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 16px 4px rgba(69,64,64,0.75) inset;
+    -webkit-box-shadow: 0px 0px 16px 4px rgba(69,64,64,0.75) inset;
+    -moz-box-shadow: 0px 0px 16px 4px rgba(69,64,64,0.75) inset;
+}
+
+.contenedor_datos{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nombre_usuario{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content:left;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.nombre_usuario label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #1E1D1D;
+    margin-right: 1rem;
+}
+
+.register_contraseña{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 1.1rem;
+}
+
+.register_contraseña label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #1E1D1D;
+    margin-right: 0.1rem;
+}
+
+.repetir_contraseña{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.repetir_contraseña label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #1E1D1D;
+    margin-right: 0.1rem;
+}
+
+#repetir_contraseña{
+    height: 2rem;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+.email_usuario{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content:left;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.email_usuario label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #1E1D1D;
+    margin-right: 1.9rem;
+}
+
+#email{
+    height: 2rem;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+.contenedor_boton_submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.boton_crear{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #DFD128;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+    font-weight: 200;
+    transition: all 0.6s;
+    margin-bottom: 3rem;
+}
+
+.contenedor_boton_submit button:hover{
+    background-color: #1E1D1D;
+    cursor: pointer;
+    color: #DFD128;
 }
