@@ -793,19 +793,10 @@ p{
     #titulo_nav{
         font-size: 2.5rem;
     }
-
-    .body-login{
-        width: 100%;
-        height: 55rem;
-    }
 }
 
 @media (max-width:426px){
     
-    .body-login{
-        width: 100%;
-        height: 108rem;
-    }
     .login{
         width: 50rem;
         height: 25rem;
@@ -831,19 +822,6 @@ p{
     }
 }
 
-@media (min-width:374px){
-    .body-login{
-        width: 100%;
-        height: 123.1rem;
-    }
-}
-
-@media (max-width:320px){
-    .body-login{
-        width: 100%;
-        height: 146.2rem;
-    }
-}
 /* CSS CREAR USUARIO */
 
 .contenedor_register{
