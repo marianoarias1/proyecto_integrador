@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -10,6 +14,7 @@
 body{
     background-color: #0a0909;
 }
+
 
 p{
     font-family: 'Barlow Condensed', sans-serif;
@@ -22,6 +27,11 @@ p{
     width: 100%;
     color: #1E1D1D;
 }
+
+.cambio{
+    display: none;
+}
+
 .navbar{
     width: 100%;
     display: flex;
@@ -56,6 +66,21 @@ p{
     margin: 0.6rem;
 }
 
+.menu{
+    display: none;
+    align-items: center;
+}
+
+.icono-ham{
+    font-size: 2rem;
+    color: #1E1D1D;
+}
+
+.label-menu{
+    display: none;
+    align-items: center;
+}
+
 .foto_header{
     width: 100%;
     height: 55%;
@@ -84,7 +109,7 @@ p{
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.75);
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 
 .titulo_z9{
@@ -469,6 +494,144 @@ p{
 
 .contacto img:hover{
     width: 3rem;
+}
+
+/* responsive laptop */
+
+@media (max-width: 1024px){
+    .foto_header{
+        width: 75.1rem;
+    }
+
+    #principal{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 74.9rem;
+    }
+
+    .img_z9{
+        width: 74.9rem;
+    }
+
+    .img_z9 img{
+        width: 60rem;
+        height: 30rem;
+    }
+
+    #h3_imagenes{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 74.9rem;
+    }
+
+    .hr_z9{
+        width: 74.9rem;
+    }
+
+    .hr__z9{
+        width: 74.9rem;
+    }
+
+    .z9_imagenes{
+        width: 74.9rem;
+    }
+
+    .z9_imagenes img{
+        width: 45rem;
+        height: 48rem;
+    }
+
+    .z9_imagenes img:nth-child(2){
+        width: 45rem;
+        height: 40rem;
+    }
+
+    .camaras{
+        width: 74.9rem;
+    }
+    
+    .lentes{
+        width: 74.9rem;
+    }
+
+    .accesorios{
+        width: 74.9rem;
+    }
+
+    .contacto{
+        width: 75rem;
+    }
+}
+
+/* responsive tablet */
+
+@media (max-width:768px){
+    #titulo_nav{
+        font-size: 2.5rem;
+    }
+    
+    .navbar ul{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+    
+    .label-menu{
+        display: flex;
+    }
+
+    .cambio:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+        width: 10rem;
+
+    }
+
+    .icono-ham{
+
+    }
+
+    i:hover{
+        animation: animacion 1s linear infinite;
+        animation-direction: alternate;
+    
+    }
+
+    @keyframes animacion{
+
+        0%{
+            transform: rotate(0deg);
+        }
+
+        100%{
+            transform: rotate(90deg);
+        }
+    }
+
+    .titulo_z9{
+        font-size: 2rem;
+    }    
+}
+
+@media (max-width:580px){
+    .titulo_z9{
+        font-size: 2rem;
+        width: 75rem;
+        display: flex;
+        justify-content: center;
+    }   
+}
+
+@media (min-width:425px){
+    .img_z9 img{
+        width: 55rem;
+        height: 30rem;
+    }
 }
 
 /* CSS LOGIN */
