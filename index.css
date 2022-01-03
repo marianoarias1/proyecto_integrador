@@ -778,6 +778,54 @@ p{
     margin-bottom: 0.5rem;
 }
 
+@media (max-width: 1024px){
+    .contenedor_login{
+        display: flex;
+        width: 74.9rem;
+    }
+
+    .login{
+        width: 45rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width:768px){
+    .login{
+        width: 50rem;
+        height: 25rem;
+        }
+
+    #titulo_nav{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:426px){
+    .login{
+        width: 50rem;
+        height: 25rem;
+    }
+
+    .usuario label{
+        font-size: 2rem;
+    }
+
+    .contraseña label{
+        font-size: 2rem;
+    }
+
+    .boton_entrar{
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 1.7rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .p_login{
+    font-size: 1.7rem;
+    }
+}
 /* CSS CREAR USUARIO */
 
 .contenedor_register{
@@ -915,4 +963,64 @@ p{
     background-color: #1E1D1D;
     cursor: pointer;
     color: #DFD128;
+}
+
+@media (max-width: 1024px){
+    .contenedor_register{
+        display: flex;
+        width: 74.9rem;
+    }
+
+    .register{
+        width: 45rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width:768px){
+    .register{
+        width: 50rem;
+        height: 25rem;
+        }
+
+    #titulo_nav{
+        font-size: 2.5rem;
+    }
+
+    .boton_crear{
+        width: 10.5rem;
+        height: 2.5rem;
+        font-size: 1.7rem;
+        letter-spacing: 0.1rem;
+    }
+}
+
+@media (max-width:426px){
+    .register{
+        width: 50rem;
+        height: 25rem;
+    }
+
+    .nombre_usuario label{
+        font-size: 2rem;
+    }
+
+    .email_usuario label{
+        font-size: 2rem;
+    }
+
+    .register_contraseña label{
+        font-size: 2rem;
+    }
+
+    .repetir_contraseña label{
+        font-size: 2rem;
+    }
+
+    .boton_crear{
+        width: 10.5rem;
+        height: 2.5rem;
+        font-size: 1.7rem;
+        letter-spacing: 0.1rem;
+    }
 }
